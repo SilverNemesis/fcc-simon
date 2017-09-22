@@ -1,0 +1,12 @@
+html {
+  font-size: 24px;
+}
+
+body {
+  background-color: darkgray;
+  color: black;
+}
+
+.noselect {
+  user-select: none;
+}
