@@ -57,7 +57,7 @@ class App extends React.Component {
     onInterval() {
         this.frameTime = Date.now();
 
-        if (this.game.lit && this.frameTime - this.game.lit > 449) {
+        if (this.game.lit && this.frameTime - this.game.lit > 399) {
             this.game.lit = undefined;
             this.setState({
                 lit: 'none'
@@ -286,7 +286,6 @@ class App extends React.Component {
                     <div className="col text-center">
                         <Simon steps={steps} lit={this.state.lit} onClick={this.onClickButton} message={this.state.message} messageColor={this.state.messageColor} />
                     </div>
-                    <div className="w-100"></div>
                     <div className="w-100"></div>
                     <div className="col-6 text-center">
                         <button className="btn btn-primary btn-lg btn-block" onClick={this.onClickPrimary}>{this.buttonText[this.state.state]}</button>
