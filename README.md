@@ -2,7 +2,7 @@
 
 This is the Simon Game application that I created as my [Build a Simon Game](https://www.freecodecamp.org/challenges/build-a-simon-game) project at [freeCodeCamp](https://www.freecodecamp.org).
 
-You can check out the running application [here](https://silvernemesis.github.io/fcc-simon/) to see what it does.
+You can check out the [running application](https://silvernemesis.github.io/fcc-simon/) to see what it does.
 
 ## Prerequisites
 
